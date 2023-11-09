@@ -1,0 +1,50 @@
+# Ignore database files in the Django projects
+**/db.sqlite3
+
+# Ignore virtual environment directories (e.g., /venv/)
+**/venv/
+
+# Ignore compiled Python files in Django projects
+**/__pycache__/
+
+# Ignore media and static files (if served separately in production)
+**/media/
+**/static/
+
+# Ignore build output in the React frontend project
+frontend/build/
+
+# Ignore Node.js modules
+frontend/node_modules/
+
+# Ignore development files and directories in the React project
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production.local
+frontend/.cache/
+frontend/.eslintcache
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Ignore editor and IDE files (e.g., Visual Studio Code and PyCharm)
+.vscode/
+.idea/
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore .DS_Store files (macOS specific)
+.DS_Store
+
+# Ignore any compiled files or directories
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Ignore local settings files (e.g., settings_local.py)
+**/settings_local.py
+

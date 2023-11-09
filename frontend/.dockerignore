@@ -1,0 +1,18 @@
+# Ignore development files and directories in the React project
+node_modules/
+
+# Ignore editor and IDE files (e.g., Visual Studio Code and WebStorm)
+.vscode/
+.idea/
+*.iml
+*.idea
+.idea_modules/
+
+# Ignore version control directories and files
+.git
+.gitignore
+
+# Ignore test files (e.g., testing libraries and test results)
+__tests__/
+coverage/
+JestSnapshots/

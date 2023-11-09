@@ -1,0 +1,40 @@
+# Exclude common development and editor files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Exclude version control directories and files
+.git
+.gitignore
+.gitattributes
+.hg
+.hgignore
+.hgrags
+.bzr
+.bzrignore
+
+# Exclude system-specific or generated files
+*.log
+*.pot
+*.po
+*.mo
+__pycache__
+Thumbs.db
+.desktop
+*~
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.db
+*.sqlite3
+
+# Exclude database files
+*.db
+*.sqlite3
+*.sql
